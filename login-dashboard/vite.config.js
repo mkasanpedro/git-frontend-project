@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// This makes the site work on BOTH GitHub and Netlify automatically
 export default defineConfig({
   plugins: [react()],
-  base: '/git-frontend-project/',
+  base: './', 
 })
